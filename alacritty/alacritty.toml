@@ -1,0 +1,12 @@
+general.import=["/home/nerdrunner/.config/alacritty/themes/kitty.toml"]
+
+[font]
+normal = {family="ShureTechMono Nerd Font Mono", style="Regular"}
+size = 14.0
+
+[cursor]
+style = {shape = "Beam", blinking = "On"}
+blink_interval = 250
+blink_timeout = 0
+
+

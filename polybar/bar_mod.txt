@@ -1,0 +1,31 @@
+Required Modules: 
+  1. Workspaces
+  2. Clock
+  3. Audio Volume
+  4. Wireless Network
+  5. Bluetooth
+  6. Brightness
+  7. Power-Profiles
+  8. Battery
+  9. System Load
+  10. Power Menu
+
+Positioning: 
+  
+  Left:
+    >Workspaces
+
+  Center:
+    >Clock
+
+  Right:
+    >Audio Volume
+    >Wireless Network
+    >Bluetooth
+    >Brightness
+    >Power-Profiles
+    >Battery
+    >Load
+    >Power Menu
+
+
