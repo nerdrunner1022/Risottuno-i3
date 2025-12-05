@@ -1,1 +1,2 @@
-for_window [class="Vivaldi-flatpak"] move to scratchpad; floating enable
+for_window [class="Vivaldi-flatpak"] move to scratchpad;
+for_window [class="Org.gnome.Rhythmbox3"] move to scratchpad

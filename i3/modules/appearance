@@ -7,7 +7,6 @@ font pango:ShureTechMono Nerd Font 12
 #font pango:DejaVu Sans Mono 8
 
 for_window[class="^.*"] border pixel 3
-default_border pixel 20
 
 gaps inner 10
 gaps outer 3

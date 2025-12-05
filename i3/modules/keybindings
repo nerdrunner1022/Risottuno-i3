@@ -16,7 +16,9 @@ bindsym $mod+semicolon exec rofi -show power-menu -modi power-menu:rofi-power-me
 bindsym $mod+v exec cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | xclip -selection clipboardh
 bindsym CTRL+period exec rofi -modi emoji -show emoji
 bindsym $mod+Print exec flameshot gui --path ~/Pictures/Screenshots
-bindsym $mod+s scratchpad show;
+bindsym CTRL+Escape exec alacritty -e btop
+bindsym Mod1+p [class="Org.gnome.Rhythmbox3"] scratchpad show;
+bindsym Mod1+b [class="Vivaldi-flatpak"] scratchpad show;
 
 # kill focused window
 bindsym $mod+c kill
@@ -117,6 +119,10 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -2% #&& $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle #&& $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle #&& $refresh_i3status
+
+bindsym CTRL+space exec rhythmbox-client --play-pause
+bindsym CTRL+Shift+comma exec rhythmbox-client --previous
+bindsym CTRL+Shift+period exec rhythmbox-client --next
 
 # Brightness control
 bindsym XF86MonBrightnessUp exec brightnessctl set +1%
